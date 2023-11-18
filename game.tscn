@@ -44,6 +44,18 @@ mesh = ExtResource("4_3hk8u")
 transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, -9.71718, -1.17593, 43.2008)
 mesh = ExtResource("4_3hk8u")
 
+[node name="Brick-wall54" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 315.171, -1.17593, 60.2138)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall55" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 315.171, -1.17593, 4.4166)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall56" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 315.171, -1.17593, 82.4453)
+mesh = ExtResource("4_3hk8u")
+
 [node name="Brick-wall10" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 63.6629, -1.52786, 80.6746)
 mesh = ExtResource("4_3hk8u")
@@ -57,11 +69,39 @@ transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.006
 mesh = ExtResource("4_3hk8u")
 
 [node name="Brick-wall23" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 191.409, -0.414626, 39.3337)
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 192.426, -0.334883, 25.0411)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall32" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 212.653, -0.916615, 50.3209)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall33" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 228.098, -1.72724, 70.1328)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall34" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 212.93, -1.1697, 6.98552)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall63" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 334.072, -1.1697, 6.98552)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall64" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 353.467, -1.1697, 6.98552)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall65" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 342.833, -1.1697, 68.2483)
 mesh = ExtResource("4_3hk8u")
 
 [node name="Brick-wall22" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 171.525, -0.621263, 80.3253)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall25" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, 170.682, -1.75486, 15.3294)
 mesh = ExtResource("4_3hk8u")
 
 [node name="Brick-wall5" type="MeshInstance3D" parent="."]
@@ -84,8 +124,40 @@ mesh = ExtResource("4_3hk8u")
 transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 30.6216, -2.51, 57.1027)
 mesh = ExtResource("4_3hk8u")
 
+[node name="Brick-wall52" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 223.95, -2.51, 57.1027)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall53" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 280.119, -2.51, 57.1027)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall57" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 323.572, -2.51, 57.1027)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall58" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 363.234, -2.51, 57.1027)
+mesh = ExtResource("4_3hk8u")
+
 [node name="Brick-wall13" type="MeshInstance3D" parent="."]
 transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 77.4488, -1.50861, 90.6833)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall59" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 382.185, -1.50861, 90.6833)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall60" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 382.185, -1.50861, 72.7647)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall61" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 382.185, -1.50861, 18.7371)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall62" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 382.185, -1.50861, 36.4776)
 mesh = ExtResource("4_3hk8u")
 
 [node name="Brick-wall14" type="MeshInstance3D" parent="."]
@@ -93,19 +165,115 @@ transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 128.175, -0
 mesh = ExtResource("4_3hk8u")
 
 [node name="Brick-wall20" type="MeshInstance3D" parent="."]
-transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 164.483, -0.00601482, 113.554)
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 164.49, -0.898872, 113.531)
 mesh = ExtResource("4_3hk8u")
 
 [node name="Brick-wall21" type="MeshInstance3D" parent="."]
-transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 199.34, -0.0543728, 113.506)
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 198.307, -1.13933, 113.451)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall35" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 241.321, -1.00745, 113.539)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall36" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 284.49, -1.00745, 113.539)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall37" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 327.858, -1.00745, 113.539)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall38" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 371.223, -1.00745, 113.539)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall47" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 401.361, -1.00745, 113.539)
 mesh = ExtResource("4_3hk8u")
 
 [node name="Brick-wall15" type="MeshInstance3D" parent="."]
 transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 120.589, -1.29331, 90.5593)
 mesh = ExtResource("4_3hk8u")
 
+[node name="Brick-wall50" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 241.25, -1.29331, 90.5593)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall51" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 294.044, -1.29331, 90.5593)
+mesh = ExtResource("4_3hk8u")
+
 [node name="Brick-wall16" type="MeshInstance3D" parent="."]
 transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 73.8022, -1.84975, 29.1123)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall24" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 116.501, -1.77513, 28.9368)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall48" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 225.734, -1.77513, 28.9368)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall49" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 280.981, -1.77513, 28.9368)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall26" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 125.248, -1.01884, 6.37605)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall27" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 81.7176, -0.881929, 6.62297)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall28" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 89.1945, -2.01457, -5.53211)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall30" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 132.619, -2.02485, -5.40005)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall31" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 175.637, -1.99035, -5.45721)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall39" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 219.065, -1.99035, -5.45721)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall40" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 262.198, -1.99035, -5.45721)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall41" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 305.517, -1.99035, -5.45721)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall42" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 348.68, -1.99035, -5.45721)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall43" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 391.646, -1.99035, -5.45721)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall44" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.979892, 0.0237261, 24.8851, 0.0888437, 30.2731, -0.0183673, -43.4824, 0.0613198, -0.560837, 416.226, -2.13715, -5.34681)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall45" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.979892, 0.0237261, 24.8851, 0.0888437, 30.2731, -0.0183673, -43.4824, 0.0613198, -0.560837, 416.226, -2.13715, 37.1541)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall46" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.979892, 0.0237261, 24.8851, 0.0888437, 30.2731, -0.0183673, -43.4824, 0.0613198, -0.560837, 416.226, -2.13715, 80.0882)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall29" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, 45.7351, -1.98376, -5.63051)
 mesh = ExtResource("4_3hk8u")
 
 [node name="Brick-wall17" type="MeshInstance3D" parent="."]
