@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2sl4wcnncyo7"
+path="res://.godot/imported/gravestone-roof.obj-8a745c0ac85c39b169bb980850d28e50.mesh"
+
+[deps]
+
+files=["res://.godot/imported/gravestone-roof.obj-8a745c0ac85c39b169bb980850d28e50.mesh"]
+
+source_file="res://Assets/OBJ format/gravestone-roof.obj"
+dest_files=["res://.godot/imported/gravestone-roof.obj-8a745c0ac85c39b169bb980850d28e50.mesh", "res://.godot/imported/gravestone-roof.obj-8a745c0ac85c39b169bb980850d28e50.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

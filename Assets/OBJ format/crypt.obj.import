@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bstekdtbmm2ns"
+path="res://.godot/imported/crypt.obj-11334cdb0c740857b4b13e95874064aa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crypt.obj-11334cdb0c740857b4b13e95874064aa.mesh"]
+
+source_file="res://Assets/OBJ format/crypt.obj"
+dest_files=["res://.godot/imported/crypt.obj-11334cdb0c740857b4b13e95874064aa.mesh", "res://.godot/imported/crypt.obj-11334cdb0c740857b4b13e95874064aa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

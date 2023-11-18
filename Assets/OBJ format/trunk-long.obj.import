@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://el3s2wqm2u17"
+path="res://.godot/imported/trunk-long.obj-8d1a5f8777e5e778ed5d0b6d8959c5e3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/trunk-long.obj-8d1a5f8777e5e778ed5d0b6d8959c5e3.mesh"]
+
+source_file="res://Assets/OBJ format/trunk-long.obj"
+dest_files=["res://.godot/imported/trunk-long.obj-8d1a5f8777e5e778ed5d0b6d8959c5e3.mesh", "res://.godot/imported/trunk-long.obj-8d1a5f8777e5e778ed5d0b6d8959c5e3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

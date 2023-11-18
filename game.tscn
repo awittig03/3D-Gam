@@ -1,0 +1,54 @@
+[gd_scene load_steps=9 format=3 uid="uid://5vffjsojlw3t"]
+
+[ext_resource type="Script" path="res://Player.gd" id="1_a4r3w"]
+[ext_resource type="ArrayMesh" uid="uid://byw776m17rr05" path="res://Assets/kenney_weapon-pack/Models/pistol.obj" id="2_ocu0r"]
+[ext_resource type="ArrayMesh" uid="uid://xi0hcl4qrrrl" path="res://Assets/kenney_blocky-characters/Models/Non-rigged/basicCharacter.obj" id="3_g4wod"]
+[ext_resource type="ArrayMesh" uid="uid://bruunnm35u5we" path="res://Assets/OBJ format/brick-wall.obj" id="4_3hk8u"]
+[ext_resource type="ArrayMesh" uid="uid://kaeq47xwk866" path="res://Assets/OBJ format/altar-wood.obj" id="5_0gjf7"]
+
+[sub_resource type="Skin" id="Skin_vr4xe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7h8l3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hnp4a"]
+
+[node name="Game" type="Node3D"]
+
+[node name="Player" type="CharacterBody3D" parent="."]
+script = ExtResource("1_a4r3w")
+
+[node name="Pistol" type="MeshInstance3D" parent="Player"]
+transform = Transform3D(50.3869, 0, 0, 0, 24.8752, 0, 0, 0, 65.954, -2.59114, 6.16778, 2.2114)
+mesh = ExtResource("2_ocu0r")
+skeleton = NodePath("../..")
+
+[node name="BasicCharacter" type="MeshInstance3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0404263, -0.148902, 0.0358944)
+mesh = ExtResource("3_g4wod")
+skin = SubResource("Skin_vr4xe")
+skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0339851, -0.0623035, 0.32146)
+shape = SubResource("BoxShape3D_7h8l3")
+
+[node name="Camera3D" type="Camera3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.5709, 0)
+fov = 36.5625
+
+[node name="Brick-wall" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.252367, 0.00943508, 24.891, -0.259779, 30.2727, -0.00689576, -43.492, -0.180765, 0.144474, -9.7663, 0.787815, 7.90018)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Brick-wall2" type="MeshInstance3D" parent="."]
+transform = Transform3D(43.4935, 0, 0, 0, 30.2732, 0, 0, 0, 24.8914, -5.54136, -0.584969, -31.1452)
+mesh = ExtResource("4_3hk8u")
+
+[node name="Altar-wood" type="MeshInstance3D" parent="."]
+transform = Transform3D(698.095, 0, 0, 0, 5.631, 0, 0, 0, 698.095, 76.5795, -3.73128, 66.0299)
+mesh = ExtResource("5_0gjf7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Altar-wood"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Altar-wood/StaticBody3D"]
+shape = SubResource("BoxShape3D_hnp4a")

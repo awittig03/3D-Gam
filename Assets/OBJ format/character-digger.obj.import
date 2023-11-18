@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bw4rhafwhk2r1"
+path="res://.godot/imported/character-digger.obj-d41b37c9b0a8e0e891da7fc32f65b5af.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character-digger.obj-d41b37c9b0a8e0e891da7fc32f65b5af.mesh"]
+
+source_file="res://Assets/OBJ format/character-digger.obj"
+dest_files=["res://.godot/imported/character-digger.obj-d41b37c9b0a8e0e891da7fc32f65b5af.mesh", "res://.godot/imported/character-digger.obj-d41b37c9b0a8e0e891da7fc32f65b5af.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

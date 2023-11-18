@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://doi32kkvc0e4n"
+path="res://.godot/imported/gravestone-debris.obj-6c923ba5297e3fea885eb957abf03e28.mesh"
+
+[deps]
+
+files=["res://.godot/imported/gravestone-debris.obj-6c923ba5297e3fea885eb957abf03e28.mesh"]
+
+source_file="res://Assets/OBJ format/gravestone-debris.obj"
+dest_files=["res://.godot/imported/gravestone-debris.obj-6c923ba5297e3fea885eb957abf03e28.mesh", "res://.godot/imported/gravestone-debris.obj-6c923ba5297e3fea885eb957abf03e28.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

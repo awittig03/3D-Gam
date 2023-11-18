@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0c03q0vo0hfo"
+path="res://.godot/imported/cross-wood.obj-ea21b6d65487d1977949ad5323e37096.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cross-wood.obj-ea21b6d65487d1977949ad5323e37096.mesh"]
+
+source_file="res://Assets/OBJ format/cross-wood.obj"
+dest_files=["res://.godot/imported/cross-wood.obj-ea21b6d65487d1977949ad5323e37096.mesh", "res://.godot/imported/cross-wood.obj-ea21b6d65487d1977949ad5323e37096.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
