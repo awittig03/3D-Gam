@@ -1,12 +1,16 @@
-[gd_scene load_steps=9 format=3 uid="uid://5vffjsojlw3t"]
+[gd_scene load_steps=11 format=3 uid="uid://5vffjsojlw3t"]
 
 [ext_resource type="Script" path="res://Player.gd" id="1_a4r3w"]
 [ext_resource type="ArrayMesh" uid="uid://byw776m17rr05" path="res://Assets/kenney_weapon-pack/Models/pistol.obj" id="2_ocu0r"]
 [ext_resource type="ArrayMesh" uid="uid://xi0hcl4qrrrl" path="res://Assets/kenney_blocky-characters/Models/Non-rigged/basicCharacter.obj" id="3_g4wod"]
+[ext_resource type="Texture2D" uid="uid://c072crgu33iq7" path="res://Assets/kenney_blocky-characters/Skins/Basic/skin_adventurer.png" id="3_iks87"]
 [ext_resource type="ArrayMesh" uid="uid://bruunnm35u5we" path="res://Assets/OBJ format/brick-wall.obj" id="4_3hk8u"]
 [ext_resource type="ArrayMesh" uid="uid://kaeq47xwk866" path="res://Assets/OBJ format/altar-wood.obj" id="5_0gjf7"]
 
-[sub_resource type="Skin" id="Skin_vr4xe"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dfqpr"]
+albedo_texture = ExtResource("3_iks87")
+
+[sub_resource type="Skin" id="Skin_v1nl1"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_7h8l3"]
 
@@ -15,25 +19,30 @@
 [node name="Game" type="Node3D"]
 
 [node name="Player" type="CharacterBody3D" parent="."]
+transform = Transform3D(-0.996266, 0, -0.0863386, 0, 1, 0, 0.0863386, 0, -0.996266, 0, 0, 0)
 script = ExtResource("1_a4r3w")
 
 [node name="Pistol" type="MeshInstance3D" parent="Player"]
-transform = Transform3D(50.3869, 0, 0, 0, 24.8752, 0, 0, 0, 65.954, -2.59114, 6.16778, 2.2114)
+transform = Transform3D(-48.9515, 0, 15.6305, 0, 24.8752, 0, -11.9412, 0, -64.0751, 3.49676, 6.53218, -1.9087)
 mesh = ExtResource("2_ocu0r")
 skeleton = NodePath("../..")
 
 [node name="BasicCharacter" type="MeshInstance3D" parent="Player"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0404263, -0.148902, 0.0358944)
+transform = Transform3D(-0.994104, 0, 0.108433, 0, 1, 0, -0.108433, 0, -0.994104, 0.0404263, -0.148902, 0.0358944)
+material_override = SubResource("StandardMaterial3D_dfqpr")
 mesh = ExtResource("3_g4wod")
-skin = SubResource("Skin_vr4xe")
+skin = SubResource("Skin_v1nl1")
 skeleton = NodePath("../..")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0339851, -0.0623035, 0.32146)
 shape = SubResource("BoxShape3D_7h8l3")
 
-[node name="Camera3D" type="Camera3D" parent="Player"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.5709, 0)
+[node name="Pivot" type="Marker3D" parent="Player"]
+transform = Transform3D(-0.996266, 0, 0.0863386, 0, 1, 0, -0.0863386, 0, -0.996266, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Player/Pivot"]
+transform = Transform3D(-0.996266, 0, -0.0863386, 0, 1, 0, 0.0863386, 0, -0.996266, 0, 12.5709, 0)
 fov = 36.5625
 
 [node name="Brick-wall" type="MeshInstance3D" parent="."]
