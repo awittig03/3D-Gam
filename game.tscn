@@ -1,11 +1,14 @@
-[gd_scene load_steps=11 format=3 uid="uid://5vffjsojlw3t"]
+[gd_scene load_steps=20 format=3 uid="uid://5vffjsojlw3t"]
 
 [ext_resource type="Script" path="res://Player.gd" id="1_a4r3w"]
 [ext_resource type="ArrayMesh" uid="uid://byw776m17rr05" path="res://Assets/kenney_weapon-pack/Models/pistol.obj" id="2_ocu0r"]
+[ext_resource type="Script" path="res://Pistol.gd" id="3_dc48k"]
 [ext_resource type="ArrayMesh" uid="uid://xi0hcl4qrrrl" path="res://Assets/kenney_blocky-characters/Models/Non-rigged/basicCharacter.obj" id="3_g4wod"]
 [ext_resource type="Texture2D" uid="uid://c072crgu33iq7" path="res://Assets/kenney_blocky-characters/Skins/Basic/skin_adventurer.png" id="3_iks87"]
 [ext_resource type="ArrayMesh" uid="uid://bruunnm35u5we" path="res://Assets/OBJ format/brick-wall.obj" id="4_3hk8u"]
 [ext_resource type="ArrayMesh" uid="uid://kaeq47xwk866" path="res://Assets/OBJ format/altar-wood.obj" id="5_0gjf7"]
+[ext_resource type="Texture2D" uid="uid://cdpuwtji7s1rg" path="res://Assets/kenney_blocky-characters/Skins/Basic/skin_orc.png" id="8_gko8d"]
+[ext_resource type="ArrayMesh" uid="uid://oxrdwkdbjt25" path="res://Assets/kenney_blocky-characters/Models/Non-rigged/advancedCharacter.obj" id="9_m20vj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dfqpr"]
 albedo_texture = ExtResource("3_iks87")
@@ -15,6 +18,24 @@ albedo_texture = ExtResource("3_iks87")
 [sub_resource type="BoxShape3D" id="BoxShape3D_7h8l3"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_hnp4a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_urtna"]
+albedo_texture = ExtResource("8_gko8d")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iyr77"]
+albedo_texture = ExtResource("8_gko8d")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_84sfh"]
+albedo_texture = ExtResource("8_gko8d")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qaufs"]
+albedo_texture = ExtResource("8_gko8d")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mbfh7"]
+albedo_texture = ExtResource("8_gko8d")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mcq2o"]
+albedo_texture = ExtResource("8_gko8d")
 
 [node name="Game" type="Node3D"]
 
@@ -26,6 +47,7 @@ script = ExtResource("1_a4r3w")
 transform = Transform3D(-48.9515, 0, 15.6305, 0, 24.8752, 0, -11.9412, 0, -64.0751, 3.49676, 6.53218, -1.9087)
 mesh = ExtResource("2_ocu0r")
 skeleton = NodePath("../..")
+script = ExtResource("3_dc48k")
 
 [node name="BasicCharacter" type="MeshInstance3D" parent="Player"]
 transform = Transform3D(-0.994104, 0, 0.108433, 0, 1, 0, -0.108433, 0, -0.994104, 0.0404263, -0.148902, 0.0358944)
@@ -306,10 +328,40 @@ transform = Transform3D(-2.02722, 0.004359, 23.884, 0.129076, 29.0821, 0, -41.73
 mesh = ExtResource("4_3hk8u")
 
 [node name="Altar-wood" type="MeshInstance3D" parent="."]
-transform = Transform3D(698.095, 0, 0, 0, 5.631, 0, 0, 0, 698.095, 76.5795, -3.73128, 66.0299)
+transform = Transform3D(698.095, 0, 0, 0, 5.631, 0, 0, 0, 698.095, 79.1828, -2.08996, 65.236)
 mesh = ExtResource("5_0gjf7")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Altar-wood"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Altar-wood/StaticBody3D"]
 shape = SubResource("BoxShape3D_hnp4a")
+
+[node name="AdvancedCharacter" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.0621111, 0, 0.998069, 0, 1, 0, -0.998069, 0, 0.0621111, 69.556, 1.15521, 64.6069)
+material_override = SubResource("StandardMaterial3D_urtna")
+mesh = ExtResource("9_m20vj")
+
+[node name="AdvancedCharacter2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 210.942, 0.725539, 59.2655)
+material_override = SubResource("StandardMaterial3D_iyr77")
+mesh = ExtResource("9_m20vj")
+
+[node name="AdvancedCharacter3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 71.0784, 0.725539, 91.437)
+material_override = SubResource("StandardMaterial3D_84sfh")
+mesh = ExtResource("9_m20vj")
+
+[node name="AdvancedCharacter4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 319.883, 0.725539, 62.1359)
+material_override = SubResource("StandardMaterial3D_qaufs")
+mesh = ExtResource("9_m20vj")
+
+[node name="AdvancedCharacter5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 393.501, 0.725539, -4.13039)
+material_override = SubResource("StandardMaterial3D_mbfh7")
+mesh = ExtResource("9_m20vj")
+
+[node name="AdvancedCharacter6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 218.192, 0.725539, 0.906494)
+material_override = SubResource("StandardMaterial3D_mcq2o")
+mesh = ExtResource("9_m20vj")

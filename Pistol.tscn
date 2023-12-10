@@ -1,3 +1,16 @@
-[gd_scene format=3 uid="uid://b3wmq5xy1gyyd"]
+[gd_scene load_steps=4 format=3 uid="uid://b3wmq5xy1gyyd"]
 
-[node name="Pistol" type="Node3D"]
+[ext_resource type="PackedScene" uid="uid://b3wmq5xy1gyyd" path="res://Pistol.tscn" id="1_kifrx"]
+[ext_resource type="ArrayMesh" uid="uid://byw776m17rr05" path="res://Assets/kenney_weapon-pack/Models/pistol.obj" id="2_wn2s5"]
+[ext_resource type="ArrayMesh" uid="uid://rkfmanjtt1tf" path="res://Assets/kenney_weapon-pack/Models/ammo_pistol.obj" id="3_srii8"]
+
+[node name="Pistol" instance=ExtResource("1_kifrx")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -0.0812505, -0.0162799, 0.0373799)
+
+[node name="Pistol" type="MeshInstance3D" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0454444, 0, -0.0343966)
+mesh = ExtResource("2_wn2s5")
+
+[node name="AmmoPistol" type="MeshInstance3D" parent="." index="1"]
+transform = Transform3D(0.699385, 0.029059, 0.00401801, 0.00493768, -0.0220999, -0.699634, -0.0289169, 0.699047, -0.0222855, 0.0465218, 0.0136779, -0.0088814)
+mesh = ExtResource("3_srii8")
