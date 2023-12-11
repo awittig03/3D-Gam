@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://5vffjsojlw3t"]
+[gd_scene load_steps=45 format=3 uid="uid://5vffjsojlw3t"]
 
 [ext_resource type="Script" path="res://Player.gd" id="1_a4r3w"]
 [ext_resource type="ArrayMesh" uid="uid://byw776m17rr05" path="res://Assets/kenney_weapon-pack/Models/pistol.obj" id="2_ocu0r"]
@@ -9,6 +9,31 @@
 [ext_resource type="ArrayMesh" uid="uid://kaeq47xwk866" path="res://Assets/OBJ format/altar-wood.obj" id="5_0gjf7"]
 [ext_resource type="Texture2D" uid="uid://cdpuwtji7s1rg" path="res://Assets/kenney_blocky-characters/Skins/Basic/skin_orc.png" id="8_gko8d"]
 [ext_resource type="ArrayMesh" uid="uid://oxrdwkdbjt25" path="res://Assets/kenney_blocky-characters/Models/Non-rigged/advancedCharacter.obj" id="9_m20vj"]
+[ext_resource type="AudioStream" uid="uid://dql3ov1qop3e" path="res://Assets/music/music game 3.mp3" id="10_tls3h"]
+[ext_resource type="ArrayMesh" uid="uid://8cydavms1lmp" path="res://Assets/OBJ format/bench-damaged.obj" id="11_8vrgi"]
+[ext_resource type="ArrayMesh" uid="uid://b1qwmfisr2ap6" path="res://Assets/OBJ format/coffin-old.obj" id="12_qeymp"]
+[ext_resource type="ArrayMesh" uid="uid://gv24os3b0v5s" path="res://Assets/OBJ format/cross.obj" id="13_3v78y"]
+[ext_resource type="ArrayMesh" uid="uid://bstekdtbmm2ns" path="res://Assets/OBJ format/crypt.obj" id="14_s8bu5"]
+[ext_resource type="ArrayMesh" uid="uid://dhobq0digi1de" path="res://Assets/OBJ format/pumpkin-tall-carved.obj" id="15_8td6i"]
+[ext_resource type="ArrayMesh" uid="uid://dfs6k3c4chm5m" path="res://Assets/OBJ format/lantern-candle.obj" id="16_ps1ti"]
+[ext_resource type="ArrayMesh" uid="uid://b32kj802pivqo" path="res://Assets/OBJ format/hay-bale.obj" id="17_s0llf"]
+[ext_resource type="ArrayMesh" uid="uid://c0qqv431a2bpc" path="res://Assets/OBJ format/hay-bale-bundled.obj" id="18_e7l66"]
+[ext_resource type="ArrayMesh" uid="uid://e52khn1e85lg" path="res://Assets/OBJ format/shovel.obj" id="19_p6nt2"]
+[ext_resource type="ArrayMesh" uid="uid://bfkcnmh2eh4j7" path="res://Assets/OBJ format/rocks.obj" id="20_mbtpm"]
+[ext_resource type="ArrayMesh" uid="uid://bjn63i71htrro" path="res://Assets/OBJ format/debris-wood.obj" id="21_17iov"]
+[ext_resource type="ArrayMesh" uid="uid://bh30ir3f76xiv" path="res://Assets/OBJ format/pine-crooked.obj" id="22_0tm4c"]
+[ext_resource type="ArrayMesh" uid="uid://el3s2wqm2u17" path="res://Assets/OBJ format/trunk-long.obj" id="23_yig7k"]
+[ext_resource type="ArrayMesh" uid="uid://byr5eyw5wwfxr" path="res://Assets/OBJ format/lightpost-all.obj" id="24_aii5p"]
+[ext_resource type="ArrayMesh" uid="uid://doi32kkvc0e4n" path="res://Assets/OBJ format/gravestone-debris.obj" id="25_y2l6m"]
+[ext_resource type="ArrayMesh" uid="uid://c5cpgnsndn8du" path="res://Assets/OBJ format/pumpkin-tall.obj" id="26_l47r3"]
+[ext_resource type="ArrayMesh" uid="uid://jkb6hetyqk7f" path="res://Assets/OBJ format/pumpkin.obj" id="27_moqij"]
+[ext_resource type="ArrayMesh" uid="uid://ioed1vkhdaua" path="res://Assets/OBJ format/pumpkin-carved.obj" id="28_gj40t"]
+[ext_resource type="ArrayMesh" uid="uid://caojdpnp8y4ay" path="res://Assets/OBJ format/pine-fall.obj" id="29_cwayr"]
+[ext_resource type="ArrayMesh" uid="uid://meflb53aq42p" path="res://Assets/OBJ format/trunk.obj" id="30_ng5mj"]
+[ext_resource type="ArrayMesh" uid="uid://ct84jvdjxjbsw" path="res://Assets/OBJ format/rocks-tall.obj" id="31_oloj6"]
+[ext_resource type="ArrayMesh" uid="uid://b2o2cn5wp522p" path="res://Assets/OBJ format/bench.obj" id="32_prnko"]
+[ext_resource type="ArrayMesh" uid="uid://bbk3qlbghq6wv" path="res://Assets/OBJ format/candle-multiple.obj" id="33_pefh4"]
+[ext_resource type="ArrayMesh" uid="uid://d27ejxwoece85" path="res://Assets/OBJ format/candle.obj" id="34_pgyqy"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dfqpr"]
 albedo_texture = ExtResource("3_iks87")
@@ -328,7 +353,7 @@ transform = Transform3D(-2.02722, 0.004359, 23.884, 0.129076, 29.0821, 0, -41.73
 mesh = ExtResource("4_3hk8u")
 
 [node name="Altar-wood" type="MeshInstance3D" parent="."]
-transform = Transform3D(698.095, 0, 0, 0, 5.631, 0, 0, 0, 698.095, 79.1828, -2.08996, 65.236)
+transform = Transform3D(698.095, 0, 0, 0, 5.631, 0, 0, 0, 698.095, 77.9577, -2.08996, 61.3925)
 mesh = ExtResource("5_0gjf7")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Altar-wood"]
@@ -365,3 +390,126 @@ mesh = ExtResource("9_m20vj")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 218.192, 0.725539, 0.906494)
 material_override = SubResource("StandardMaterial3D_mcq2o")
 mesh = ExtResource("9_m20vj")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_tls3h")
+autoplay = true
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="Bench-damaged" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.87367, 0, -15.8899, 0, 16, 0, 15.8899, 0, -1.87367, 47.4458, 0.72554, 96.3225)
+mesh = ExtResource("11_8vrgi")
+
+[node name="Coffin-old" type="MeshInstance3D" parent="."]
+transform = Transform3D(13.9774, 0, -7.78673, 0, 16, 0, 7.78673, 0, 13.9774, 42.8208, 0.725544, 58.2281)
+mesh = ExtResource("12_qeymp")
+
+[node name="Cross" type="MeshInstance3D" parent="."]
+transform = Transform3D(11.1828, 0, 11.4431, 0, 16, 0, -11.4431, 0, 11.1828, 61.2354, 0.72554, 26.1279)
+mesh = ExtResource("13_3v78y")
+
+[node name="Crypt" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0753992, 0, 15.9998, 0, 16, 0, -15.9998, 0, -0.0753992, 66.5674, 0.72554, 39.2754)
+mesh = ExtResource("14_s8bu5")
+
+[node name="Pumpkin-tall-carved" type="MeshInstance3D" parent="."]
+transform = Transform3D(21.9003, 0, 14.0134, 0, 26, 0, -14.0134, 0, 21.9003, 30.0755, 0.427525, -10.5038)
+mesh = ExtResource("15_8td6i")
+
+[node name="Lantern-candle" type="MeshInstance3D" parent="."]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 171.509, 0.72554, 96.2579)
+mesh = ExtResource("16_ps1ti")
+
+[node name="Hay-bale" type="MeshInstance3D" parent="."]
+transform = Transform3D(5.89259, 0, -14.8754, 0, 16, 0, 14.8754, 0, 5.89259, 293.769, 0.72554, -6.0896)
+mesh = ExtResource("17_s0llf")
+
+[node name="Hay-bale-bundled" type="MeshInstance3D" parent="."]
+transform = Transform3D(-5.68462, 0, -18.1297, 0, 19, 0, 18.1297, 0, -5.68462, 296.152, 0.718082, 9.27806)
+mesh = ExtResource("18_e7l66")
+
+[node name="Shovel" type="MeshInstance3D" parent="."]
+transform = Transform3D(10.7229, 0, -5.38696, 0, 12, 0, 5.38696, 0, 10.7229, 297.929, 1.26237, 86.9375)
+mesh = ExtResource("19_p6nt2")
+
+[node name="Rocks" type="MeshInstance3D" parent="."]
+transform = Transform3D(8.79491, 0, -4.75916, 0, 10, 0, 4.75916, 0, 8.79491, 295.694, 0.607232, 95.8711)
+mesh = ExtResource("20_mbtpm")
+
+[node name="Cross2" type="MeshInstance3D" parent="."]
+transform = Transform3D(11.7503, 0, -10.8596, 0, 16, 0, 10.8596, 0, 11.7503, 293.556, 0.72554, 54.2803)
+mesh = ExtResource("13_3v78y")
+
+[node name="Debris-wood" type="MeshInstance3D" parent="."]
+transform = Transform3D(9.30569, 0, 7.57656, 0, 12, 0, -7.57656, 0, 9.30569, 298.227, 0.72554, 72.3869)
+mesh = ExtResource("21_17iov")
+
+[node name="Pine-crooked" type="MeshInstance3D" parent="."]
+transform = Transform3D(6.82215, 0, 7.31151, 0, 10, 0, -7.31151, 0, 6.82215, 227.136, 0.725541, 71.541)
+mesh = ExtResource("22_0tm4c")
+
+[node name="Pine-crooked2" type="MeshInstance3D" parent="."]
+transform = Transform3D(6.26026, 0, 4.98088, 0, 8, 0, -4.98088, 0, 6.26026, 225.332, 0.725541, 55.6584)
+mesh = ExtResource("22_0tm4c")
+
+[node name="Trunk-long" type="MeshInstance3D" parent="."]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 314.212, 0.504685, -9.74488)
+mesh = ExtResource("23_yig7k")
+
+[node name="Lightpost-all" type="MeshInstance3D" parent="."]
+transform = Transform3D(12, 0, 0, 0, 12, 0, 0, 0, 12, 333.452, 0.642294, -9.90906)
+mesh = ExtResource("24_aii5p")
+
+[node name="Gravestone-debris" type="MeshInstance3D" parent="."]
+transform = Transform3D(13, 0, 0, 0, 13, 0, 0, 0, 13, 396.615, 0.72554, 20.4734)
+mesh = ExtResource("25_y2l6m")
+
+[node name="Pumpkin-tall" type="MeshInstance3D" parent="."]
+transform = Transform3D(10.1726, 0, 8.09429, 0, 13, 0, -8.09429, 0, 10.1726, -13.1747, 0.725541, 98.8323)
+mesh = ExtResource("26_l47r3")
+
+[node name="Pumpkin" type="MeshInstance3D" parent="."]
+transform = Transform3D(12.8046, 0, -2.24536, 0, 13, 0, 2.24536, 0, 12.8046, 42.9673, 0.72554, 76.1166)
+mesh = ExtResource("27_moqij")
+
+[node name="Pumpkin-carved" type="MeshInstance3D" parent="."]
+transform = Transform3D(12.5912, 0, 3.23429, 0, 13, 0, -3.23429, 0, 12.5912, 153.912, 0.72554, 97.0364)
+mesh = ExtResource("28_gj40t")
+
+[node name="Pumpkin-tall-carved2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-7.98248, 0, 10.2606, 0, 13, 0, -10.2606, 0, -7.98248, 311.841, 0.72554, 97.1142)
+mesh = ExtResource("15_8td6i")
+
+[node name="Pine-fall" type="MeshInstance3D" parent="."]
+transform = Transform3D(5.4851, 0, -2.43181, 0, 6, 0, 2.43181, 0, 5.4851, 312.327, 0.72554, 87.3979)
+mesh = ExtResource("29_cwayr")
+
+[node name="Trunk" type="MeshInstance3D" parent="."]
+transform = Transform3D(5.05234, 0, -11.9781, 0, 13, 0, 11.9781, 0, 5.05234, 398.673, 0.72554, 88.2691)
+mesh = ExtResource("30_ng5mj")
+
+[node name="Rocks-tall" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.08148, 0, 12.9549, 0, 13, 0, -12.9549, 0, -1.08148, 396.373, 0.72554, 71.0146)
+mesh = ExtResource("31_oloj6")
+
+[node name="Pumpkin-tall2" type="MeshInstance3D" parent="."]
+transform = Transform3D(11.4475, 0, 8.05947, 0, 14, 0, -8.05947, 0, 11.4475, 339.988, 0.72554, 54.8583)
+mesh = ExtResource("26_l47r3")
+
+[node name="Bench" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.188315, 0, 12.9986, 0, 13, 0, -12.9986, 0, 0.188315, 209.318, 0.72554, 33.0803)
+mesh = ExtResource("32_prnko")
+
+[node name="Candle-multiple" type="MeshInstance3D" parent="."]
+transform = Transform3D(11.6122, 0, 9.49504, 0, 15, 0, -9.49504, 0, 11.6122, 222.893, 0.72554, 85.2412)
+mesh = ExtResource("33_pefh4")
+
+[node name="Candle" type="MeshInstance3D" parent="."]
+transform = Transform3D(8.99333, 0, 13.2333, 0, 16, 0, -13.2333, 0, 8.99333, 185.23, 0.594712, 99.0619)
+mesh = ExtResource("34_pgyqy")
+
+[node name="Candle-multiple2" type="MeshInstance3D" parent="."]
+transform = Transform3D(9.25782, 0, -10.502, 0, 14, 0, 10.502, 0, 9.25782, 197.462, 0.72554, -11.2828)
+mesh = ExtResource("33_pefh4")
