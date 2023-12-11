@@ -1,7 +1,7 @@
 # 3D-Game
 
 Description
-11/15/20203
+11/15/2023
 3D maze game with mods and wepons 
 
 ## Implementation
@@ -11,14 +11,14 @@ https://www.kenney.nl/assets/weapon-pack
 
 
 ## What Makes this a Game?
-
+Runing in a maze from zombies and others!
 
 ## References
 
 
 
 ## Future Development
-Add backgroud and add some music 
+
 
 
 ## Created by
